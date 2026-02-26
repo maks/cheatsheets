@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 842 595">
+  <rect width="842" height="595" fill="#f8fafc" />
+  
+  <rect width="842" height="60" fill="#334155" />
+  <text x="20" y="40" font-family="sans-serif" font-size="24" font-weight="bold" fill="#ffffff">micro editor | Command Reference</text>
+  <text x="822" y="38" font-family="sans-serif" font-size="12" fill="#cbd5e1" text-anchor="end">Ctrl+E to open command panel</text>
+
+  <g transform="translate(20, 80)">
+    <rect width="255" height="495" rx="8" fill="#ffffff" stroke="#e2e8f0" />
+    <text x="15" y="30" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e293b">General &amp; Files</text>
+    <path d="M15 40 h225" stroke="#cbd5e1" />
+    
+    <g font-family="monospace" font-size="11" fill="#475569">
+      <text x="15" y="65"><tspan font-weight="bold" fill="#2563eb">Ctrl+s</tspan> Save</text>
+      <text x="15" y="85"><tspan font-weight="bold" fill="#2563eb">Ctrl+o</tspan> Open</text>
+      <text x="15" y="105"><tspan font-weight="bold" fill="#2563eb">Ctrl+q</tspan> Quit</text>
+      <text x="15" y="125"><tspan font-weight="bold" fill="#2563eb">Ctrl+f</tspan> Search</text>
+      <text x="15" y="145"><tspan font-weight="bold" fill="#2563eb">Ctrl+n/p</tspan> Next/Prev Search</text>
+      <text x="15" y="165"><tspan font-weight="bold" fill="#2563eb">Ctrl+l</tspan> Goto Line</text>
+      <text x="15" y="185"><tspan font-weight="bold" fill="#2563eb">Ctrl+r</tspan> Toggle Line Numbers</text>
+      <text x="15" y="205"><tspan font-weight="bold" fill="#2563eb">Ctrl+g</tspan> Help</text>
+      <text x="15" y="225"><tspan font-weight="bold" fill="#2563eb">Alt+g</tspan> Bindings</text>
+    </g>
+
+    <text x="15" y="260" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e293b">Splits &amp; Tabs</text>
+    <path d="M15 270 h225" stroke="#cbd5e1" />
+    <g font-family="monospace" font-size="11" fill="#475569">
+      <text x="15" y="295"><tspan font-weight="bold" fill="#2563eb">Ctrl+\</tspan> Split Right</text>
+      <text x="15" y="315"><tspan font-weight="bold" fill="#2563eb">Ctrl+]</tspan> Split Left</text>
+      <text x="15" y="335"><tspan font-weight="bold" fill="#2563eb">Alt+|</tspan> New view (same file)</text>
+      <text x="15" y="355"><tspan font-weight="bold" fill="#2563eb">Ctrl+w</tspan> Switch Split</text>
+      <text x="15" y="385"><tspan font-weight="bold" fill="#2563eb">Ctrl+t</tspan> New Tab</text>
+      <text x="15" y="405"><tspan font-weight="bold" fill="#2563eb">Ctrl+Alt+&gt;</tspan> Next Tab</text>
+      <text x="15" y="425"><tspan font-weight="bold" fill="#2563eb">Ctrl+Alt+&lt;</tspan> Prev Tab</text>
+    </g>
+  </g>
+
+  <g transform="translate(295, 80)">
+    <rect width="255" height="495" rx="8" fill="#ffffff" stroke="#e2e8f0" />
+    <text x="15" y="30" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e293b">Editing</text>
+    <path d="M15 40 h225" stroke="#cbd5e1" />
+    
+    <g font-family="monospace" font-size="11" fill="#475569">
+      <text x="15" y="65"><tspan font-weight="bold" fill="#2563eb">Ctrl+c/v/x</tspan> Copy / Paste / Cut</text>
+      <text x="15" y="85"><tspan font-weight="bold" fill="#2563eb">Ctrl+k</tspan> Cut Line</text>
+      <text x="15" y="105"><tspan font-weight="bold" fill="#2563eb">Ctrl+z/y</tspan> Undo / Redo</text>
+      <text x="15" y="125"><tspan font-weight="bold" fill="#2563eb">Ctrl+d</tspan> Duplicate Line</text>
+      <text x="15" y="145"><tspan font-weight="bold" fill="#2563eb">Alt+Up/Dn</tspan> Move Line Up/Down</text>
+      <text x="15" y="165"><tspan font-weight="bold" fill="#2563eb">Alt+Bksp</tspan> Delete Word Left</text>
+      
+      <text x="15" y="195" font-family="sans-serif" font-weight="bold">Navigation &amp; Selection</text>
+      <text x="15" y="215">Home/End: Start/End of Line</text>
+      <text x="15" y="235">Ctrl+Home/End: Doc Start/End</text>
+      <text x="15" y="255">Ctrl+Left/Right: Word Jump</text>
+      <text x="15" y="275">Shft+Left/Right: Select Word</text>
+    </g>
+
+    <text x="15" y="320" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e293b">Multi-Cursor</text>
+    <path d="M15 330 h225" stroke="#cbd5e1" />
+    <g font-family="monospace" font-size="11" fill="#475569">
+      <text x="15" y="355"><tspan font-weight="bold" fill="#2563eb">Ctrl+M1</tspan> Apply Multi-cursor</text>
+      <text x="15" y="375"><tspan font-weight="bold" fill="#2563eb">Alt+n/x</tspan> Add/Skip match</text>
+      <text x="15" y="395"><tspan font-weight="bold" fill="#2563eb">Alt+m</tspan> Cursor at Start of Line</text>
+      <text x="15" y="415"><tspan font-weight="bold" fill="#2563eb">Alt+Shift+Up/Dn</tspan> Add Up/Down</text>
+      <text x="15" y="435"><tspan font-weight="bold" fill="#2563eb">Alt+p/c</tspan> Remove / Clear All</text>
+    </g>
+  </g>
+
+  <g transform="translate(570, 80)">
+    <rect width="255" height="495" rx="8" fill="#ffffff" stroke="#e2e8f0" />
+    <text x="15" y="30" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e293b">Commands (Ctrl+E)</text>
+    <path d="M15 40 h225" stroke="#cbd5e1" />
+    
+    <g font-family="monospace" font-size="10" fill="#475569">
+      <text x="15" y="65"><tspan font-weight="bold" fill="#2563eb">replace</tspan> 'search' 'val' 'flags'?</text>
+      <text x="15" y="85"><tspan font-weight="bold" fill="#2563eb">replaceall</tspan> 'search' 'new'</text>
+      <text x="15" y="105"><tspan font-weight="bold" fill="#2563eb">run</tspan> sh-command</text>
+      <text x="15" y="125"><tspan font-weight="bold" fill="#2563eb">vsplit</tspan> filename [right]</text>
+      <text x="15" y="145"><tspan font-weight="bold" fill="#2563eb">hsplit</tspan> filename [down]</text>
+      <text x="15" y="165"><tspan font-weight="bold" fill="#2563eb">tab</tspan> filename [new tab]</text>
+      <text x="15" y="185"><tspan font-weight="bold" fill="#2563eb">tabswitch</tspan> 1.. [num]</text>
+      <text x="15" y="205"><tspan font-weight="bold" fill="#2563eb">textfilter</tspan> 'sh-command'</text>
+    </g>
+
+    <text x="15" y="240" font-family="sans-serif" font-size="16" font-weight="bold" fill="#d33c1d">init.lua (Custom)</text>
+    <path d="M15 250 h225" stroke="#cbd5e1" />
+    <g font-family="monospace" font-size="11" fill="#475569">
+      <text x="15" y="275"><tspan font-weight="bold" fill="#d33c1d">Alt+b</tspan> Build (Go, Rust, Py)</text>
+      <text x="15" y="295"><tspan font-weight="bold" fill="#d33c1d">Alt+o</tspan> Print Output (Bottom)</text>
+      <text x="15" y="315"><tspan font-weight="bold" fill="#d33c1d">Alt+t</tspan> Run Tests</text>
+      <text x="15" y="335"><tspan font-weight="bold" fill="#d33c1d">Alt+f</tspan> Format File</text>
+      <text x="15" y="355"><tspan font-weight="bold" fill="#d33c1d">Alt+i</tspan> Interact (REPL)</text>
+      <text x="15" y="375"><tspan font-weight="bold" fill="#d33c1d">Alt+l</tspan> Lint (Clippy/Flake8)</text>
+      <text x="15" y="395"><tspan font-weight="bold" fill="#d33c1d">Alt+y</tspan> Sort Imports</text>
+    </g>
+    
+    <rect x="15" y="440" width="225" height="40" rx="4" fill="#f1f5f9" />
+    <text x="25" y="458" font-family="sans-serif" font-size="9" fill="#64748b">Config location:</text>
+    <text x="25" y="472" font-family="monospace" font-size="9" fill="#1e293b">~/.config/micro/init.lua</text>
+  </g>
+
+  <text x="20" y="588" font-family="sans-serif" font-size="9" fill="#94a3b8">Based on the original cheat sheet by rochacbruno: https://gist.github.com/rochacbruno/9e4f4c471e849276f11562272db446b0</text>
+</svg>
